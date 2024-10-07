@@ -1,0 +1,423 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}   
+
+.nav-bar-first{
+    background-color: rgb(236, 93, 146);
+    color:#000000;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar-box-first{
+    width:32.0625rem;
+    font-weight: 500;
+}
+.nav-bar-box-second{
+    display: flex;
+    align-items:center;
+    width:32.0625rem;
+    opacity: 0.7;
+}
+.pink-sale{
+    font-size:1rem;
+}
+
+.nav-app{
+    width: 6.68rem;
+  
+}
+.app-icon i{
+    font-size: 1.25rem;
+    width: 1.5rem;
+}
+
+.app-icon{
+    font-size: 1rem;
+    width:6.625rem;
+    height:2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-store{
+    width: 10rem;
+    padding-left: 1rem;
+}
+
+.store-icon i{
+    font-size:1.25rem;
+}
+
+.store-icon{
+    font-size:1rem;
+}
+
+.nav-gift-card{
+    width: 7.0625em;
+    padding-left: 1rem;
+}
+
+.nav-help{
+    width: 4.375em;
+    padding-left: 1rem;
+}
+.nav-line-sec{
+    display: flex;
+    align-items: center;
+    height: 3.125rem;
+    font-weight:800;
+}
+/* First Nav Ends */
+
+/* Second Nav Starts */
+
+.nav-second{
+    height: 4.375em;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.1px solid black;
+}
+
+.nav-logo{
+    height: 1.75em;
+    width: 5.375em;
+}
+.logo{
+    background-image:url("images/nykaa_logo.png") ;
+    height:100%;
+    width:100%;
+    background-size: cover;
+}
+
+
+.nav-options p{
+    display: inline;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    opacity: 0.75;
+    margin-left:1.25rem;
+}
+.nav-search{
+    background-color: rgb(244, 244, 244);
+    width:15.5rem;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.search-icon{
+    height: 1.5rem;
+    width:1.5rem;
+    font-size: 1.125rem;
+    opacity:0.5;
+}
+
+.search-input{
+    background-color: rgb(244, 244, 244);
+    font-size: 14px;
+    width: 100%;
+    border:none;
+    margin-left:1rem;
+}
+
+
+.button{
+    background-color: #E80071;
+    color: white;
+    font-weight:600;
+    border:none;
+    width: 5rem;
+    height: 2.5em;
+    border-radius: 8px;
+    font-size:14px;
+}
+
+.shopping-icon{
+    font-size: 1.25rem;
+}
+
+/* Nav Third Starts */
+
+.nav-third{
+    height:60px;
+    border-bottom: 5px solid rgb(233, 233, 233);
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    opacity: 0.6;
+    font-weight:100;
+}
+
+.main-image{
+    background-image: url("images/main_image.png");
+    height:23.75rem;
+    background-size: cover;
+}
+.nav-offers{
+    color:rgb(255, 0, 129);
+    height: 4.5rem;
+    /* border-bottom: 1px solid black; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:2.1875rem;
+    font-weight: 600;
+    padding-top: 1rem;    
+}
+
+.nav-shopping-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    /* height: 100px; */
+    /* background-color: pink; */
+
+}
+
+.shopping-section1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 14.5rem;
+    width: 28.893125rem;
+    margin:10px;
+    
+}
+
+.box-img{
+    height: 14.5rem;
+    width: 28.983125rem;
+    background-size: cover;
+    border-top-right-radius:.5rem;
+    border-bottom-right-radius:.5rem;
+    border-top-left-radius:.5rem;
+    border-bottom-left-radius:.5rem;
+}
+
+.shopping-section2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+}
+
+.shopping-section3{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.shopping-section4{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.shopping-section5{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.shopping-section6{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.shopping-section7{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.foot-panel1{
+    background-color: rgb(58, 64, 71);
+    color:rgb(255, 255, 255);
+    height: 9.375rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1px solid black;
+
+}
+
+.inbox-section{
+    display: flex;
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+.envelop-icon{
+    font-size:1.5625rem;
+    margin-right:0.625rem;
+    display: flex;
+    align-items: center;
+}
+
+.email-section{
+    background-color:rgb(58, 64, 71) ;
+    color:white;
+    display: flex;
+    margin-top: 0.625rem;
+    height:2.3125rem;
+}
+.input-email{
+    background-color:rgb(58, 64, 71) ;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    width: 12.5rem;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-right:0.625rem;
+}
+button{
+    background-color:rgb(58, 64, 71) ;
+    color:white;
+    width:4.375rem;
+    height:2.125rem;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: 1000;
+    letter-spacing: 0px;
+
+}
+
+.downloading-location{
+    display: flex;
+}
+
+.phone-icon{
+    display:flex;
+}
+
+.downloading-location{
+    font-size:13px;
+    font-weight:600;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.downloading-location p{
+    margin-top:2px;
+    font-size: 13px;
+}
+.mobile-icon{
+    font: size 1.5625em;
+    display: flex;
+    align-items: center;
+    margin-right:0.625rem;
+
+}
+.downloading-apps{
+    width: 18.75em;
+    height:3.125rem;
+    display: flex;
+    /* background-color: pink; */
+    margin-top: 0.625rem;
+
+}
+
+.app-img1{
+    box-sizing: border-box;
+    height: 3.75rem;
+    width:10rem;
+    background-size: cover;
+    margin-top:-0.75rem;
+    margin: left -0.625em;
+}
+.app-img2{
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    height: 2.5rem;
+    width: 7.5rem;
+    background-size: cover;
+}
+
+
+.phone-icon{
+    font-size: 1.5625rem;
+}
+
+.help-section p{
+    font-size:13px;
+    margin-left: 0.625rem;
+    font-weight: 600;
+
+}
+.contact-nuber{
+    font: size 0.8125em;
+    margin-left: 2.125rem;
+    margin-top: -0.5rem;
+    font-weight: 600;
+     
+}
+.contact-nuber p{
+    font-size:0.8125rem;
+    margin-left: 2px;  
+    margin-top: 0.625rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.foot-panel2{
+    background-color: rgb(140, 141, 148);
+    height:25.3125rem;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nykaa-logo{
+    width:7.5rem;
+    height:2rem;
+    background-size: cover;
+    margin-bottom:1.5625rem;
+    border-radius: 2px;
+    border:none;
+}
+
+ul p{
+    margin-bottom:1.5625rem;
+    font-size:14px;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 0.625rem;
+    font-weight: 400;
+}
+ul{
+    margin-top: 1.25rem;
+}
+.foot-panel3{
+    background-color: rgb(232, 0, 113);
+    color:rgb(254, 243, 246);
+    height:5rem;
+    text-align: center;
+
+} 
+.options{
+    font-size:0.75rem;
+    font-weight:600;
+    padding-top: 1.25rem;
+}
+.options a{
+    margin-left:1.875rem;
+
+}
+.copyright{
+    font-size:11px;
+    font-weight:600;
+    padding-top: 1.25rem;
+}
